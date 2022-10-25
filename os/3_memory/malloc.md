@@ -184,7 +184,7 @@ int main() {
 
 ![图片](https://img-blog.csdnimg.cn/img_convert/500fdc021d956f60963f308760f511d0.png)
 
-查看进程的内存的分布情况，可以发现最右边没有 [head] 标志，说明是通过 mmap 以匿名映射的方式从文件映射区分配的匿名内存。
+查看进程的内存的分布情况，可以发现最右边没有 [heap] 标志，说明是通过 mmap 以匿名映射的方式从文件映射区分配的匿名内存。
 
 ![图片](https://img-blog.csdnimg.cn/img_convert/501f458b8d35abe5e378a0f14c667797.png)
 
